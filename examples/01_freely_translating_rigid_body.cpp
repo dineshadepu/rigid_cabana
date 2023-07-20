@@ -88,7 +88,20 @@ void freely_moving_rigid_body()
                         grid_min[2] + grid_delta[2] * ( 0.5 + k );
                 }
 
+    /* Create the aosoa of particles
 
+       This is more detailed in test_01_create_aosoa.cpp example
+     */
+
+    // divide the particles into fluid, boundary, rigid body
+
+    // set the limits for the indices in the particles
+
+    // Create the aosoa of the rigid body
+
+    // setup the properties of the rigid body by using the aosoa of particles
+
+    // a common time loop
 }
 
 
